@@ -27,7 +27,7 @@ def main():
     """
     st.set_page_config(
         page_title="Diseases Prediction App",
-        page_icon="images/perroDoctor.png"
+        page_icon="images/robotDoctor.png"
     )
     st.title("Predicción de Enfermedades a partir de información de sintomatología")
     st.subheader("¿Presentas síntomas que te preocupan?"
@@ -370,7 +370,7 @@ def main():
             Autor: Daniela Restrepo G., Joseph David Gómez C. y Miguel Angel Caycedo S.
             """)
     with col1:
-        st.image("images/perroDoctor.png",
+        st.image("images/robotDoctor.png",
                 caption="Wowf! En que puedo ayudarte",
                 width=200)
     # El botón predicción se usa para iniciar el procesamiento
